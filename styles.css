@@ -9,3 +9,14 @@ main {
     justify-items: center;
 }
 
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    margin-top: 60px;
+}
+
