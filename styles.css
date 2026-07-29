@@ -12,6 +12,8 @@ main {
 body {
     background-color: whitesmoke;
     color: black;
+    overflow: scroll auto;
+    margin-bottom: 40px;
 }
 
 h1 {
@@ -34,6 +36,7 @@ footer {
     text-align: center;
     padding: 3px;
     color:black;
+    margin-top: 40px;
    
 }
 
