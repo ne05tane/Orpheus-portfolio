@@ -62,6 +62,10 @@ img {
     align-items: center;
 }
 
+#theme-switch svg:last-child{
+    display:none;
+}
+
 .darkmode #theme-switch{
     background-color: var(--base-variant);
     display: flex;
