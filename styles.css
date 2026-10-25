@@ -6,14 +6,14 @@
     --base-color:whitesmoke;
     --base-variant: rgb(255, 245, 233);
     --text-color: black;
-    --secondary-text:grey;
+    --secondary-text:rgb(105, 100, 100);
 }
 
 .darkmode{
     --base-color:black;
     --base-variant: grey;
     --text-color: whitesmoke;
-    --secondary-text:rgb(255,245,233);
+    --secondary-text:rgb(100, 98, 96);
 }
 
 main {
@@ -74,6 +74,15 @@ img {
     display:none;
 }
 
+a:link{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--secondary-text);
+    text-decoration: none;
+}
 
 footer {
     text-align: center;
