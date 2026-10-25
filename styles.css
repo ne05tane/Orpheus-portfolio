@@ -15,6 +15,11 @@
     --text-color: whitesmoke;
     --secondary-text:rgb(100, 98, 96);
 }
+body {
+    background-color: var(--base-color);
+    overflow: scroll auto;
+    margin-bottom: 40px;
+}
 
 main {
     display:flex;
@@ -23,11 +28,6 @@ main {
     justify-items: center;
 }
 
-body {
-    background-color: var(--base-color);
-    overflow: scroll auto;
-    margin-bottom: 40px;
-}
 
 h1 {
     font-size: 60px;
@@ -44,11 +44,13 @@ h2 {
 
 .about {
     color: var(--text-color);
+    padding: 20px;
 }
 
 img {
     width: 600px;
     border-radius: 30px;
+    padding: 10px;
 }
 
 #theme-switch svg:last-child{
@@ -74,9 +76,16 @@ img {
     display:none;
 }
 
+#haiku-box{
+    border: 1px pink;
+    padding: 100px 100px;
+    background-color: pink;
+}
+
 a:link{
     color: var(--text-color);
     text-decoration: none;
+    padding: 10px;
 }
 
 a:visited{
