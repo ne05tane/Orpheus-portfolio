@@ -2,6 +2,20 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+:root{
+    --base-color:whitesmoke;
+    --base-variant: rgb(255, 245, 233);
+    --text-color: black;
+    --secondary-text:grey;
+}
+
+.darkmode{
+    --base-color:black;
+    --base-variant: grey;
+    --text-color: whitesmoke;
+    --secondary-text:rgb(255,245,233);
+}
+
 main {
     display:flex;
     flex-direction:column;
@@ -10,8 +24,7 @@ main {
 }
 
 body {
-    background-color: whitesmoke;
-    color: black;
+    background-color: var(--base-color);
     overflow: scroll auto;
     margin-bottom: 40px;
 }
@@ -20,11 +33,17 @@ h1 {
     font-size: 60px;
     margin: 0;
     margin-top: 60px;
+    color: var(--text-color);
 }
 
 h2 {
     font-style: italic;
     font-weight: lighter;
+    color: var(--text-color);
+}
+
+.about {
+    color: var(--text-color);
 }
 
 img {
@@ -32,11 +51,30 @@ img {
     border-radius: 30px;
 }
 
+#theme-switch svg:last-child{
+    height:30px;
+    width:30px;
+    padding: 0;
+    border-radius:50%;
+    background-color:var(--base-variant);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.darkmode #theme-switch{
+    background-color: var(--base-variant);
+    display: flex;
+}
+.darkmode #theme-switch svg:first-child{
+    display:none;
+}
+
+
 footer {
     text-align: center;
     padding: 3px;
-    color:black;
+    color:var(--secondary-text);
     margin-top: 40px;
-   
 }
 
