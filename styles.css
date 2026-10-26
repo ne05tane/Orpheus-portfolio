@@ -82,6 +82,15 @@ img {
     background-color: pink;
 }
 
+p {
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+
+}
+
 a:link{
     color: var(--text-color);
     text-decoration: none;
