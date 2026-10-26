@@ -51,7 +51,7 @@ h2 {
 
 img {
     width: 600px;
-    padding: 20px;
+    padding: 20px pink;
 }
 
 #theme-switch svg:last-child{
@@ -78,8 +78,8 @@ img {
 }
 
 #haiku-box{
-    border: 1px pink;
-    padding: 100px 100px;
+    border-radius: 10px;
+    padding: 100px 200px;
     background-color: pink;
 }
 
